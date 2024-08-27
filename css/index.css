@@ -1,40 +1,118 @@
+
+
+
 .cabecalho h1{
-    color: blueviolet;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    font-family: Verdana;
     font-size: 50px;
     margin-top: 1px;
     height: 30px;
 }
 #menu{
+    position:relative;
     margin-top: 1px;
-    background-color: aqua;
+    background-color: #FF7F00;
     text-align: right;
     padding-right: 25px;
     word-spacing: 15px;
+    border-radius: 50px;
+    
+    
+        
 }    
 
 #menu a{
     text-decoration: none;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+
+#menu a:hover{
+    color: darkblue;
+    box-shadow: 0px 1px 25px 0px #FF7F00; 
 }
 
 #buscar{
+    position: relative;
+    margin-top: 30px;
     padding-right: 25px;
     text-align: right;  
+    
 }
 
 h4{
+    margin-top: 1px;
     height: 1px;
-    padding-right: 130px;
+    padding-right: 129px;
 }
 
 input{
     margin-top: 1px;
+    border-radius: 50px;
 }
 
-.rodape{
+.container{
+    position:relative;   
+    margin-top: 25px;
+    height: 400px;
+    border: 1px;
+    border-style: solid;
     
-    background-color: darkolivegreen;
+    
+    
+}    
+.container ul{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    display:inline-block;
+    margin-left: 50px;
+    margin-right: 21px;
+    border-radius: 10px;
+    border: 1px;
+    border-style:solid;
+    opacity: 1;
+}
+
+.container ul:hover{
+    
+    box-shadow: 0px 1px 25px 0px #1E90FF;
+    
+    
+}
+.container a{
+    text-decoration: none;
+    color:teal;
+    
+}
+
+img{
+   
+    width: 50px;
+    display:inline-block;
+    margin-left: 50px;
+    margin-right: 21px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+.rodape{
+    position: relative;
+    border: 1px;
+    border-style: solid;
+    border-radius: 50px;   
+    margin-top: 50px;
+}
+
+.rodape h2{
+    margin-left: 50px;
+    font-family: Verdana;
+    font-size: 35px;
+    
 }
 
