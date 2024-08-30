@@ -1,104 +1,124 @@
-
-
-
+body{
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+}
 .cabecalho h1{
-    position:relative;
     font-family: Verdana;
     font-size: 50px;
-    margin-top: 1px;
+    margin-left: 10px;
     height: 30px;
 }
 #menu{
-    position:relative;
-    margin-top: 1px;
     background-color: #FF7F00;
     text-align: right;
-    padding-right: 25px;
+    padding-right: 95px;
     word-spacing: 15px;
-    border-radius: 50px;
-    
-    
-        
 }    
-
 #menu a{
     text-decoration: none;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    
+    color:#023970;   
 }
-
 #menu a:hover{
     color: darkblue;
-    box-shadow: 0px 1px 25px 0px #FF7F00; 
+    box-shadow: 0px 1px 25px 5px #FF7F00; 
 }
-
 #buscar{
-    position: relative;
     margin-top: 30px;
     padding-right: 25px;
-    text-align: right;  
-    
+    text-align: right;     
 }
-
-h4{
+#buscar h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     margin-top: 1px;
     height: 1px;
-    padding-right: 129px;
+    padding-right: 245px;
+    color: #1E90FF;
 }
-
-input{
+#buscar input{
     margin-top: 1px;
     border-radius: 50px;
+    height: 22px;
+    width: 300px;
+    border-color: #FF7F00;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#buscar button{
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
-.container{
-    position:relative;   
+#buscar button:hover{
+    box-shadow: 0px 1px 25px 5px #1E90FF;
+}
+.menuProfissoes{ 
     margin-top: 25px;
-    height: 400px;
+    
+}
+.menuProfissoes h2{
+    
+    margin: 10px;
+    height: 20px;
+    color: #1E90FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.menuProfissoes li{
+    
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    padding-left: 35px;
+    padding-right: 22PX;
     border: 1px;
     border-style: solid;
-    
-    
-    
-}    
-.container ul{
-    position: relative;
-    width: 100px;
-    height: 150px;
-    display:inline-block;
-    margin-left: 50px;
-    margin-right: 21px;
-    border-radius: 10px;
-    border: 1px;
-    border-style:solid;
-    opacity: 1;
+    border-color:#FF7F00;
+    border-radius: 10PX;
 }
 
-.container ul:hover{
-    
-    box-shadow: 0px 1px 25px 0px #1E90FF;
-    
-    
-}
-.container a{
+.menuProfissoes a{
     text-decoration: none;
-    color:teal;
-    
 }
 
-img{
-   
-    width: 50px;
-    display:inline-block;
-    margin-left: 50px;
-    margin-right: 21px;
-    border-radius: 10px;
-    
-    
-    
+.menuProfissoes li:hover{
+    box-shadow: 0px 1px 25px 5px #FF7F00;
 }
+
+
+.menuProfissoes h3{
+    text-decoration: none;
+    color: #1E90FF;
+    text-align: center;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .rodape{
